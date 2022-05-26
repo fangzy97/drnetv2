@@ -5,7 +5,7 @@ DATA:
   classes: 2
 
 TRAIN:
-  arch: drnetv3_linit2_aspp
+  arch: drnetv2
   layers: 50
   sync_bn: False
   train_h: 473
