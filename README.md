@@ -18,10 +18,10 @@ This is the implementation of the DRNet* mentioned in paper "DRNet: Double Recal
 
 ### Models
 
-We provide trained Models with the ResNet-50 backbone on Pascal-5<sup>i</sup> and COCO-20<sup>i</sup> for performance evalution.
+We provide trained Models with the ResNet-50 backbone on Pascal-5<sup>i</sup> and COCO-20<sup>i</sup> for performance evalution. You can download them from [here](https://drive.google.com/file/d/1AUcXxSn9047ot1SiqmfQ0bVOweRLaVBg/view?usp=sharing)
 
 ### Scripts
-
+- Download the pretrained weight from [here](https://drive.google.com/file/d/1jSgUqtv8lNpggTBCZqvrHjFYk3js3OK1/view?usp=sharing) and put them in the `initmodel/`
 - Change the data_root in `.yaml` files in `data/config`.
 - **train**
   
