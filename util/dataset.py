@@ -80,7 +80,8 @@ def make_dataset(split=0, data_root=None, data_list=None, sub_list=None):
     print("{} images&label pair after processing! ".format(len(image_label_list)))
 
     print("Saving processed data...")
-    torch.save((image_label_list, sub_class_file_list), split_data_list)
+    if (len(image_label_list) > 0):
+        torch.save((image_label_list, sub_class_file_list), split_data_list)
     print("Done")
 
     return image_label_list, sub_class_file_list
